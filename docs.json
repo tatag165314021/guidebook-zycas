@@ -1,0 +1,308 @@
+{
+  "theme": "mint",
+  "name": "Zycas Guidebook",
+  "colors": {
+    "primary": "#0fa6c1",
+    "light": "#22c6e2",
+    "dark": "#0ea0ba"
+  },
+  "logo": {
+    "light": "/images/logo-zycas-landscape-color-trsprnt.png",
+    "dark": "/images/logo-zycas-landscape-white.png",
+    "href": "https://zycaspos.app"
+  },
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/images/logo-zycas.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "mailto:hi@mintlify.com",
+        "label": "Support"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "fonts": {
+    "family": "Poppins"
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ],
+    "display": "header"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Zycas Mobile",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "registrasi",
+              "authentikasi",
+              "index",
+              "pengaturan-toko-web",
+              "untitled-page",
+              "untitled-page-2",
+              "profile-1",
+              "registrasi-owner",
+              "login-owner-2"
+            ]
+          },
+          {
+            "group": "Master Data",
+            "pages": [
+              "unit-produk-mobile",
+              "tag-produk-mobile",
+              "varian-produk-moble",
+              "jabatan-mobile",
+              "user-mobile",
+              "supplier-mobile"
+            ]
+          },
+          {
+            "group": "Produk",
+            "pages": [
+              {
+                "group": "List Produk",
+                "pages": [
+                  "list-produk",
+                  "produk-biasa",
+                  "produk-paduan",
+                  "produk-varian",
+                  "input-massal-produk-varian",
+                  "hapus-produk",
+                  "edit-stok-produk"
+                ]
+              },
+              "riwayat-produk-kadaluarsa",
+              "riwayat-produk-akan-kadaluarsa",
+              "stok-produk",
+              "stok-opname",
+              "stok-paduan"
+            ]
+          },
+          {
+            "group": "CRM",
+            "pages": [
+              "member-mobile",
+              "voucher-mobile",
+              "advance-voucher-mobile",
+              "untitled-page-7"
+            ]
+          },
+          {
+            "group": "Transaksi",
+            "pages": [
+              "transaksi-offline-mobile",
+              "list-transaksi-mobile",
+              "transaksi-hutang-mobile",
+              "laporan-kasir-mobile",
+              "riwayat-transaksi-retur-mobile"
+            ]
+          },
+          {
+            "group": "Kasir",
+            "pages": [
+              "buka-kasir",
+              "akses-kasir",
+              "checkout",
+              "tutup-kasir",
+              "open-bill",
+              "pembayaran-di-open-bill",
+              "split-bill",
+              "split-bill-open-bill",
+              "produk-cuma-cuma",
+              "kalkulator-pesanan",
+              "biaya-tambahan",
+              "diskon",
+              "input-barcode-pesanan",
+              "voucher-pembelian",
+              "hutang-pembelian"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Zycas Dashboard",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              {
+                "group": "Employee",
+                "pages": [
+                  "login",
+                  "reset-password",
+                  "lupa-idorganisasi"
+                ]
+              },
+              {
+                "group": "Owner",
+                "pages": [
+                  "login-1",
+                  "reset-password-owner"
+                ]
+              },
+              "tambah-toko",
+              "profile"
+            ]
+          },
+          {
+            "group": "Kelola Toko",
+            "pages": [
+              "dashboard-toko",
+              "device-tertaut",
+              "pengaturan-toko",
+              "untitled-page-3",
+              "untitled-page-4",
+              "pindah-kelola-organisasi",
+              {
+                "group": "Produk",
+                "pages": [
+                  {
+                    "group": "List Produk",
+                    "pages": [
+                      "list-produk-copied-1",
+                      "produk-biasa-copied-1",
+                      "produk-paduan-copied-1",
+                      "produk-varian-toko",
+                      "hapus-produk-copied-1",
+                      "edit-stok-produk-toko"
+                    ]
+                  },
+                  "riwayat-kadaluarsa",
+                  "riwayat-akan-kadaluarsa",
+                  "tambah-stok",
+                  "stok-opname-toko",
+                  "stok-paduan-toko"
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "voucher-toko",
+                  "member-toko",
+                  "advance-voucher-toko",
+                  "untitled-page-5"
+                ]
+              },
+              {
+                "group": "Laporan",
+                "pages": [
+                  "list-transaksi-copied-1",
+                  "laporan-laba-rugi-toko",
+                  "laporan-kasir-toko",
+                  "laporan-hutang-toko",
+                  {
+                    "group": "Penjualan",
+                    "pages": [
+                      "ringkasan-penjualan-toko",
+                      "detail-penjualan-toko",
+                      "penjualan-harian-toko",
+                      "penjualan-produk-copied-1",
+                      "penjualan-varian-copied-1",
+                      "penjualan-per-kasir-copied-1"
+                    ]
+                  },
+                  {
+                    "group": "Operasional",
+                    "pages": [
+                      "laporan-jenis-bayar-toko",
+                      "transaksi-voif-copied-1"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Kelola Organisasi",
+            "pages": [
+              "manajemen-langganan",
+              "dashboard-organisasi",
+              "pengaturan-organisasi",
+              "pindah-kelola-toko",
+              "list-toko",
+              {
+                "group": "List Produk",
+                "pages": [
+                  "list-produk-copied-2",
+                  "produk-biasa-copied-2",
+                  "produk-paduan-copied-2",
+                  "produk-varian-organisasi",
+                  "edit-harga",
+                  "hapus-produk-copied-2",
+                  "edit-stok-produk-organisasi"
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "voucher-organisasi",
+                  "member-organisasi",
+                  "advance-voucher-organisasi",
+                  "untitled-page-6"
+                ]
+              },
+              {
+                "group": "Master Data",
+                "pages": [
+                  "varian-produk",
+                  "tag-produk",
+                  "unit-produk",
+                  "supplier",
+                  "jabatan-organisasi",
+                  "user"
+                ]
+              },
+              {
+                "group": "Laporan",
+                "pages": [
+                  "list-transaksi",
+                  "laporan-laba-rugi",
+                  "laporan-kasir-organisasi",
+                  "laporan-hutang",
+                  {
+                    "group": "Penjualan",
+                    "pages": [
+                      "ringkasan-penjualan-organisasi",
+                      "detail-penjualan-organisasi",
+                      "penjualan-harian",
+                      "penjualan-produk",
+                      "penjualan-varian",
+                      "penjualan-per-kasir"
+                    ]
+                  },
+                  {
+                    "group": "Operasional",
+                    "pages": [
+                      "laporan-jenis-bayar",
+                      "transaksi-voif"
+                    ]
+                  }
+                ]
+              },
+              "untitled-page-8",
+              "untitled-page-9"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
