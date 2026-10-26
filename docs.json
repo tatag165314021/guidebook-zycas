@@ -146,7 +146,7 @@
               {
                 "group": "Employee",
                 "pages": [
-                  "login",
+                  "login-employees",
                   "reset-password",
                   "lupa-idorganisasi"
                 ]
@@ -154,12 +154,12 @@
               {
                 "group": "Owner",
                 "pages": [
-                  "login-1",
+                  "login-owners",
                   "reset-password-owner"
                 ]
               },
               "tambah-toko",
-              "profile"
+              "profil-dasboard"
             ]
           },
           {
