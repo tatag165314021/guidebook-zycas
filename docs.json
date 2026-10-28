@@ -238,6 +238,8 @@
               "pengaturan-organisasi",
               "pindah-kelola-toko",
               "list-toko",
+              "custom-nota-digital-org",
+              "custom-nota-thermal-org",
               {
                 "group": "List Produk",
                 "pages": [
@@ -296,9 +298,7 @@
                     ]
                   }
                 ]
-              },
-              "untitled-page-8",
-              "untitled-page-9"
+              }
             ]
           }
         ]
