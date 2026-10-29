@@ -195,10 +195,8 @@
               {
                 "group": "CRM",
                 "pages": [
-                  "voucher-toko",
                   "member-toko",
-                  "advance-voucher-toko",
-                  "untitled-page-5"
+                  "advance-voucher-toko"
                 ]
               },
               {
@@ -255,10 +253,8 @@
               {
                 "group": "CRM",
                 "pages": [
-                  "voucher-organisasi",
                   "member-organisasi",
-                  "advance-voucher-organisasi",
-                  "untitled-page-6"
+                  "advance-voucher-organisasi"
                 ]
               },
               {
