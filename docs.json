@@ -265,11 +265,11 @@
                 "group": "Master Data",
                 "pages": [
                   "varian-produk-org",
-                  "tag-produk",
-                  "unit-produk",
-                  "supplier",
+                  "tag-produk-kelola-organisasi",
+                  "unit-produk-kelola-organisasi",
+                  "supplier-kelola-organisasi",
                   "jabatan-organisasi",
-                  "user"
+                  "user-kelola-organisasi"
                 ]
               },
               {
