@@ -202,10 +202,10 @@
               {
                 "group": "Laporan",
                 "pages": [
-                  "list-transaksi-copied-1",
-                  "laporan-laba-rugi-toko",
-                  "laporan-kasir-toko",
-                  "laporan-hutang-toko",
+                  "list-transaksi-kelola-toko",
+                  "laporan-laba-rugi-kelola-toko",
+                  "laporan-kasir-kelola-toko",
+                  "laporan-hutang-kelola-toko",
                   {
                     "group": "Penjualan",
                     "pages": [
