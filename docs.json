@@ -155,6 +155,7 @@
                 "group": "Owner",
                 "pages": [
                   "login-owners",
+                  "registrasi-owner-web",
                   "reset-password-owner"
                 ]
               },
