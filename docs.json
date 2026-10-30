@@ -271,26 +271,26 @@
               {
                 "group": "Laporan",
                 "pages": [
-                  "list-transaksi",
-                  "laporan-laba-rugi",
+                  "list-transaksi-organisasi",
+                  "laporan-laba-rugi-organisasi",
                   "laporan-kasir-organisasi",
-                  "laporan-hutang",
+                  "laporan-hutang-organisasi",
                   {
                     "group": "Penjualan",
                     "pages": [
                       "ringkasan-penjualan-organisasi",
                       "detail-penjualan-organisasi",
-                      "penjualan-harian",
-                      "penjualan-produk",
-                      "penjualan-varian",
-                      "penjualan-per-kasir"
+                      "penjualan-harian-organisasi",
+                      "penjualan-produk-organisasi",
+                      "penjualan-varian-organisasi",
+                      "penjualan-per-kasir-organisasi"
                     ]
                   },
                   {
                     "group": "Operasional",
                     "pages": [
-                      "laporan-jenis-bayar",
-                      "transaksi-voif"
+                      "laporan-jenis-bayar-organisasi",
+                      "transaksi-void-organisasi"
                     ]
                   }
                 ]
