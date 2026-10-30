@@ -209,18 +209,18 @@
                   {
                     "group": "Penjualan",
                     "pages": [
-                      "ringkasan-penjualan-toko",
-                      "detail-penjualan-toko",
-                      "penjualan-harian-toko",
-                      "penjualan-produk-copied-1",
-                      "penjualan-varian-copied-1",
-                      "penjualan-per-kasir-copied-1"
+                      "ringkasan-penjualan-kelola-toko",
+                      "detail-penjualan-kelola-toko",
+                      "penjualan-harian-kelola-toko",
+                      "penjualan-produk-kelola-toko",
+                      "penjualan-varian-kelola-toko",
+                      "penjualan-per-kasir-kelola-toko"
                     ]
                   },
                   {
                     "group": "Operasional",
                     "pages": [
-                      "laporan-jenis-bayar-toko",
+                      "laporan-jenis-bayar-kelola-toko",
                       "transaksi-voif-copied-1"
                     ]
                   }
