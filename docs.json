@@ -186,11 +186,11 @@
                       "edit-stok-produk-toko"
                     ]
                   },
-                  "riwayat-kadaluarsa",
-                  "riwayat-akan-kadaluarsa",
-                  "tambah-stok",
-                  "stok-opname-toko",
-                  "stok-paduan-toko"
+                  "riwayat-kadaluarsa-kelola-toko",
+                  "riwayat-akan-kadaluarsa-kelola-toko",
+                  "tambah-stok-kelola-toko",
+                  "stok-opname-kelola-toko",
+                  "stok-paduan-kelola-toko"
                 ]
               },
               {
@@ -242,12 +242,12 @@
               {
                 "group": "List Produk",
                 "pages": [
-                  "list-produk-copied-2",
+                  "list-produk-kelola-organisasi",
                   "produk-biasa-copied-2",
                   "produk-paduan-copied-2",
                   "produk-varian-organisasi",
-                  "edit-harga",
-                  "hapus-produk-copied-2",
+                  "edit-harga-per-toko",
+                  "hapus-produk-kelola-organisasi",
                   "edit-stok-produk-organisasi"
                 ]
               },
