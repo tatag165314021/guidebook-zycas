@@ -178,12 +178,12 @@
                   {
                     "group": "List Produk",
                     "pages": [
-                      "list-produk-copied-1",
+                      "list-produk-kelola-toko",
                       "produk-biasa-copied-1",
                       "produk-paduan-copied-1",
                       "produk-varian-toko",
-                      "hapus-produk-copied-1",
-                      "edit-stok-produk-toko"
+                      "hapus-produk-kelola-toko",
+                      "edit-stok-produk-kelola-toko"
                     ]
                   },
                   "riwayat-kadaluarsa-kelola-toko",
