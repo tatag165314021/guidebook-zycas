@@ -80,13 +80,13 @@
               {
                 "group": "List Produk",
                 "pages": [
-                  "list-produk",
+                  "list-produk-mobile",
                   "produk-biasa",
                   "produk-paduan",
                   "produk-varian",
                   "input-massal-produk-varian",
-                  "hapus-produk",
-                  "edit-stok-produk"
+                  "hapus-produk-mobile",
+                  "edit-stok-produk-mobile"
                 ]
               },
               "riwayat-produk-kadaluarsa",
