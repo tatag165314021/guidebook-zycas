@@ -81,7 +81,7 @@
                 "group": "List Produk",
                 "pages": [
                   "list-produk-mobile",
-                  "produk-biasa",
+                  "produk-biasa-mobile",
                   "produk-paduan",
                   "produk-varian",
                   "input-massal-produk-varian",
@@ -179,7 +179,7 @@
                     "group": "List Produk",
                     "pages": [
                       "list-produk-kelola-toko",
-                      "produk-biasa-copied-1",
+                      "produk-biasa-kelola-toko",
                       "produk-paduan-copied-1",
                       "produk-varian-toko",
                       "hapus-produk-kelola-toko",
@@ -243,7 +243,7 @@
                 "group": "List Produk",
                 "pages": [
                   "list-produk-kelola-organisasi",
-                  "produk-biasa-copied-2",
+                  "produk-biasa-kelola-organisasi",
                   "produk-paduan-copied-2",
                   "produk-varian-organisasi",
                   "edit-harga-per-toko",
