@@ -180,7 +180,7 @@
                     "pages": [
                       "list-produk-kelola-toko",
                       "produk-biasa-kelola-toko",
-                      "produk-paduan-copied-1",
+                      "produk-paduan-kelola-toko",
                       "produk-varian-toko",
                       "hapus-produk-kelola-toko",
                       "edit-stok-produk-kelola-toko"
@@ -244,7 +244,7 @@
                 "pages": [
                   "list-produk-kelola-organisasi",
                   "produk-biasa-kelola-organisasi",
-                  "produk-paduan-copied-2",
+                  "produk-paduan-kelola-organisasi",
                   "produk-varian-organisasi",
                   "edit-harga-per-toko",
                   "hapus-produk-kelola-organisasi",
