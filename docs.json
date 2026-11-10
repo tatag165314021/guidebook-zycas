@@ -82,7 +82,7 @@
                 "pages": [
                   "list-produk-mobile",
                   "produk-biasa-mobile",
-                  "produk-paduan",
+                  "produk-paduan-mobile",
                   "produk-varian",
                   "input-massal-produk-varian",
                   "hapus-produk-mobile",
@@ -232,7 +232,7 @@
           {
             "group": "Kelola Organisasi",
             "pages": [
-              "manajemen-langganan",
+              "manajemen-langganan-organisasi",
               "dashboard-organisasi",
               "pengaturan-organisasi",
               "pindah-kelola-toko",
