@@ -2,17 +2,17 @@
 title: "Profil"
 ---
 
-Fitur profil pada aplikasi Zycas berguna untuk mengelola informasi akun. Pada halaman ini, pengguna dapat melihat informasi user, informasi permission, mengubah password, ubah pin, request hapus akun, dan logout.
+Fitur profil pada aplikasi Zycas berguna untuk mengelola informasi akun. Pada halaman ini, pengguna dapat melihat informasi user, informasi permission, mengubah password, ubah pin, request hapus akun dan redeem code.
 
 <Frame>
-  ![Android Expanded 828](/images/Android-Expanded---828.png "Android Expanded 828")
+  ![Android Expanded 819zxccc](/images/Android-Expanded---819zxccc.png "Android Expanded 819zxccc")
 </Frame>
 
 <table>
   <colgroup>
-    <col width="100" />
+    <col width="50" />
     <col width="148" />
-    <col width="293" />
+    <col width="507" />
   </colgroup>
   <thead>
     <tr>
@@ -35,7 +35,17 @@ Fitur profil pada aplikasi Zycas berguna untuk mengelola informasi akun. Pada ha
     <tr>
       <td>3</td>
       <td>Hubungkan dengan Google</td>
-      <td>Tombol untuk menambahkan metode login dengan akun google</td>
+      <td>Tombol untuk menambahkan metode login dengan akun google jika sebelumnya registrasi dengan no whatsapp</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Redeem Code</td>
+      <td>Tombol untuk mengaktifkan paket langganan dengan kode voucher</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Set Akun WA</td>
+      <td>Tombol untuk menambahkan metode login dengan nomor whatsapp  jika sebelumnya registrasi dengan akun google</td>
     </tr>
   </tbody>
 </table>
@@ -247,8 +257,18 @@ Menu "Request Hapus Akun" adalah menu yang berisi konfirmasi untuk mengajukan ha
 8. Isi data-data pada form request hapus akun dengan lengkap
 9. Setelah selesai mengisi form, tekan tombol “Submit”
 
-| **🛈**<br />**Information** | Fitur Request Hapus Akun hanya dapat dilakukan oleh user owner |
-| :-: | :-- |
+<table>
+  <colgroup>
+    <col width="123" />
+    <col width="527" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "center" }}>**🛈**<br />**Information**</th>
+      <th>Fitur Request Hapus Akun hanya dapat dilakukan oleh user owner</th>
+    </tr>
+  </thead>
+</table>
 
 ## **1.5. Hubungkan dengan Akun Google**
 
@@ -276,37 +296,253 @@ Menu "Hubungkan dengan Akun Google" adalah menu yang digunakan untuk menambahkan
 
 4. Setelah melakukan konfirmasi login maka berhasil menghubungkan akun google untuk login di aplikasi Zycas
 
+## **1.6. Redeem Code Subscription**
+
+Menu "Redeem Code Subscription" adalah menu yang digunakan untuk mengaktifkan langganan aplikasi Zycas dengan memasukkan kode redeem yang telah diberikan. Setelah kode berhasil diverifikasi, masa aktif langganan akan ditambahkan sesuai dengan ketentuan kode yang digunakan.
+
+**Berikut cara mengaktifkan langganan menggunakan redeem code:**
+
+1. Tekan tombol Redeem Code di halaman profil.
+
+<Frame>
+  ![Button (61sdcddddd)](/images/Button-\(61sdcddddd\).png "Button (61sdcddddd)")
+</Frame>
+
+2. Setelah menekan tombol maka akan menampilkan halaman redeem code
+
+<Frame>
+  ![Android Expanded 128fffrfr](/images/Android-Expanded---128fffrfr.png "Android Expanded 128fffrfr")
+</Frame>
+
+3. Masukkan kode redeem pada kolom yang tersedia.
+
+<Frame>
+  ![Masukkan Kodezzzzz](/images/Masukkan-Kodezzzzz.png "Masukkan Kodezzzzz")
+</Frame>
+
+4. Tekan tombol **Cek** untuk memproses kode.
+
+<Frame>
+  ![Button (62ssddsdd)](/images/Button-\(62ssddsdd\).png "Button (62ssddsdd)")
+</Frame>
+
+5. Jika kode valid maka akan menampilkan paket langganan Zycas yang akan diaktifkan
+
+<Frame>
+  ![Property 1=frame 238579cfff](/images/Property-1=Frame-238579cfff.png "Property 1=frame 238579cfff")
+</Frame>
+
+6. Tekan tombol Lanjutkan
+
+<Frame>
+  ![Button (64ddd)](/images/Button-\(64ddd\).png "Button (64ddd)")
+</Frame>
+
+7. Setelah menekan tombol, maka akan menampilkan pop up konfirmasi redeem code
+
+<Frame>
+  ![Frame 1336 (17ffffgg)](/images/Frame-1336-\(17ffffgg\).png "Frame 1336 (17ffffgg)")
+</Frame>
+
+8. Tekan tombol "Tidak" untuk membatalkan redeem code
+
+<Frame>
+  ![Frame 1365ssssa](/images/Frame-1365ssssa.png "Frame 1365ssssa")
+</Frame>
+
+9. Checklist teks "Saya telah membaca dan memahami aturan dan konsekuensi redeem code dan ingin melanjutkan \*"
+
+<Frame>
+  ![Checkbox (2dddsss)](/images/Checkbox-\(2dddsss\).png "Checkbox (2dddsss)")
+</Frame>
+
+10. Tekan tombol "Ya, Saya Yakin" untuk konfirmasi redeem code
+
+<Frame>
+  ![Frame 1366sss](/images/Frame-1366sss.png "Frame 1366sss")
+</Frame>
+
+11. Tunggu hingga sistem selesai memverifikasi kode redeem.
+12. Jika kode berhasil diverifikasi, langganan akan otomatis diaktifkan sesuai dengan masa berlaku kode.
+13. Periksa informasi langganan pada halaman Manajemen Langganan untuk memastikan status dan masa aktif langganan telah diperbarui.
+
+## **1.7. Hubungkan dengan Akun WhatsApp**
+
+Menu "Hubungkan dengan Akun WhatsApp" adalah menu yang digunakan untuk menghubungkan nomor WhatsApp sebagai metode login aplikasi Zycas. Dengan menghubungkan akun WhatsApp, pengguna dapat login ke aplikasi menggunakan nomor WhatsApp yang telah terdaftar. Fitur ini juga dapat digunakan untuk menambahkan user staff agar masing-masing staff dapat memiliki akses login ke aplikasi Zycas.
+
+**Berikut cara menghubungkan dengan akun WhatsApp:**
+
+1. Tekan tombol **Set Akun WA** pada halaman Profil.
+
+<Frame>
+  ![Frame 6 (8ddffde)](/images/Frame-6-\(8ddffde\).png "Frame 6 (8ddffde)")
+</Frame>
+
+2. Setelah menekan tombol maka akan menampilkan form input no whatsapp
+
+<Frame>
+  ![Login Pagedddsddd](/images/Login-Pagedddsddd.png "Login Pagedddsddd")
+</Frame>
+
+3. Masukkan nomor WhatsApp yang ingin dihubungkan.
+
+<Frame>
+  ![No Whatsappddff](/images/No.-Whatsappddff.png "No Whatsappddff")
+</Frame>
+
+4. Masukkan password di kolom password
+
+<Frame>
+  ![Password (1ffdddr)](/images/Password-\(1ffdddr\).png "Password (1ffdddr)")
+</Frame>
+
+5. Masukkan ulang password anda di kolom verifikasi password
+
+<Frame>
+  ![Verifikasi Password (1bbvgvv)](/images/Verifikasi-Password-\(1bbvgvv\).png "Verifikasi Password (1bbvgvv)")
+</Frame>
+
+6. Tekan tombol "Hubungkan Akun Whatsapp" untuk melanjutkan proses penghubungan.
+
+<Frame>
+  ![Tombol Hubungkanffdrrd](/images/Tombol-Hubungkanffdrrd.png "Tombol Hubungkanffdrrd")
+</Frame>
+
+7. Sistem akan mengirimkan kode verifikasi (OTP) ke nomor WhatsApp yang dimasukkan.
+8. Masukkan kode OTP pada kolom verifikasi.
+
+<Frame>
+  ![Android Expanded 822ddsrr](/images/Android-Expanded---822ddsrr.png "Android Expanded 822ddsrr")
+</Frame>
+
+9. Setelah kode berhasil diverifikasi, nomor WhatsApp akan terhubung dengan akun Zycas.
+10. Pengguna dapat menggunakan nomor WhatsApp tersebut sebagai metode login ke aplikasi Zycas.
+
 ## **Glosarium**
 
-| **Istilah** | **Deskripsi (Penjelasan dalam Bahasa Indonesia)** |
-| :-- | :-- |
-| Zycas Mobile | Aplikasi mobile untuk mengelola transaksi, stok, dan operasional bisnis ritel. |
-| Pengguna (User) | Individu yang menggunakan aplikasi Zycas dengan hak akses tertentu. |
-| Owner | Pengguna dengan hak akses penuh terhadap seluruh menu dan fitur aplikasi Zycas. |
-| Karyawan | Pengguna dengan hak akses terbatas sesuai izin yang diberikan oleh owner. |
-| Hak Akses | Pengaturan izin yang menentukan fitur dan menu yang dapat diakses oleh pengguna. |
-| Profile | Menu pada Zycas Mobile yang digunakan untuk mengelola informasi akun dan keamanan pengguna. |
-| Modul Profile | Pusat manajemen akun personal untuk mengatur identitas, keamanan, dan sesi login pengguna. |
-| Informasi User | Data identitas pengguna yang ditampilkan pada halaman profil. |
-| Informasi Permission | Informasi mengenai hak akses atau izin yang dimiliki oleh pengguna. |
-| Ubah Password | Fitur untuk mengganti password lama dengan password baru. |
-| Password Lama | Password yang sedang digunakan dan harus diisi sebagai verifikasi sebelum perubahan. |
-| Password Baru | Password baru yang akan digunakan setelah proses perubahan berhasil. |
-| Verifikasi Password Baru | Kolom konfirmasi untuk memastikan password baru diinput dengan benar. |
-| Ubah PIN | Fitur untuk mengganti PIN lama dengan PIN baru pada akun pengguna. |
-| PIN Lama | PIN yang sedang aktif dan digunakan sebagai verifikasi perubahan PIN. |
-| PIN Baru | PIN baru yang akan digunakan setelah perubahan disimpan. |
-| Verifikasi PIN Baru | Kolom konfirmasi untuk memastikan PIN baru diinput dengan benar. |
-| Request Hapus Akun | Fitur untuk mengajukan permintaan penghapusan akun kepada admin. |
-| Pop Up Konfirmasi | Jendela dialog yang meminta persetujuan pengguna sebelum melanjutkan suatu aksi. |
-| Admin | Pihak yang memiliki wewenang untuk menyetujui atau memproses permintaan penghapusan akun. |
-| Privacy Policy | Halaman kebijakan privasi yang menjelaskan pengelolaan data pengguna. |
-| Data Subject Access Request | Tautan atau fitur untuk mengajukan permintaan terkait pengelolaan atau penghapusan data akun. |
-| Form Request Hapus Akun | Formulir yang harus diisi pengguna untuk mengajukan penghapusan akun secara resmi. |
-| Logout | Proses keluar dari akun Zycas dan mengakhiri sesi pengguna. |
-| Halaman Login | Halaman awal aplikasi Zycas yang digunakan untuk masuk ke akun pengguna. |
-| Ikon Hamburger | Ikon tiga garis yang digunakan untuk membuka sidebar menu. |
-| Sidebar Menu | Panel navigasi samping yang menampilkan daftar menu aplikasi. |
-| Notifikasi | Pesan sistem yang menampilkan status keberhasilan atau pembatalan suatu aksi. |
-| Konfirmasi Aksi | Proses persetujuan pengguna sebelum sistem menjalankan perintah tertentu. |
-| Sesi Login | Kondisi saat pengguna sedang masuk dan aktif menggunakan aplikasi. |
+<table>
+  <colgroup>
+    <col width="240" />
+    <col width="481" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>**Istilah**</th>
+      <th>**Deskripsi (Penjelasan dalam Bahasa Indonesia)**</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zycas Mobile</td>
+      <td>Aplikasi mobile untuk mengelola transaksi, stok, dan operasional bisnis ritel.</td>
+    </tr>
+    <tr>
+      <td>Pengguna (User)</td>
+      <td>Individu yang menggunakan aplikasi Zycas dengan hak akses tertentu.</td>
+    </tr>
+    <tr>
+      <td>Owner</td>
+      <td>Pengguna dengan hak akses penuh terhadap seluruh menu dan fitur aplikasi Zycas.</td>
+    </tr>
+    <tr>
+      <td>Karyawan</td>
+      <td>Pengguna dengan hak akses terbatas sesuai izin yang diberikan oleh owner.</td>
+    </tr>
+    <tr>
+      <td>Hak Akses</td>
+      <td>Pengaturan izin yang menentukan fitur dan menu yang dapat diakses oleh pengguna.</td>
+    </tr>
+    <tr>
+      <td>Profile</td>
+      <td>Menu pada Zycas Mobile yang digunakan untuk mengelola informasi akun dan keamanan pengguna.</td>
+    </tr>
+    <tr>
+      <td>Modul Profile</td>
+      <td>Pusat manajemen akun personal untuk mengatur identitas, keamanan, dan sesi login pengguna.</td>
+    </tr>
+    <tr>
+      <td>Informasi User</td>
+      <td>Data identitas pengguna yang ditampilkan pada halaman profil.</td>
+    </tr>
+    <tr>
+      <td>Informasi Permission</td>
+      <td>Informasi mengenai hak akses atau izin yang dimiliki oleh pengguna.</td>
+    </tr>
+    <tr>
+      <td>Ubah Password</td>
+      <td>Fitur untuk mengganti password lama dengan password baru.</td>
+    </tr>
+    <tr>
+      <td>Password Lama</td>
+      <td>Password yang sedang digunakan dan harus diisi sebagai verifikasi sebelum perubahan.</td>
+    </tr>
+    <tr>
+      <td>Password Baru</td>
+      <td>Password baru yang akan digunakan setelah proses perubahan berhasil.</td>
+    </tr>
+    <tr>
+      <td>Verifikasi Password Baru</td>
+      <td>Kolom konfirmasi untuk memastikan password baru diinput dengan benar.</td>
+    </tr>
+    <tr>
+      <td>Ubah PIN</td>
+      <td>Fitur untuk mengganti PIN lama dengan PIN baru pada akun pengguna.</td>
+    </tr>
+    <tr>
+      <td>PIN Lama</td>
+      <td>PIN yang sedang aktif dan digunakan sebagai verifikasi perubahan PIN.</td>
+    </tr>
+    <tr>
+      <td>PIN Baru</td>
+      <td>PIN baru yang akan digunakan setelah perubahan disimpan.</td>
+    </tr>
+    <tr>
+      <td>Verifikasi PIN Baru</td>
+      <td>Kolom konfirmasi untuk memastikan PIN baru diinput dengan benar.</td>
+    </tr>
+    <tr>
+      <td>Request Hapus Akun</td>
+      <td>Fitur untuk mengajukan permintaan penghapusan akun kepada admin.</td>
+    </tr>
+    <tr>
+      <td>Pop Up Konfirmasi</td>
+      <td>Jendela dialog yang meminta persetujuan pengguna sebelum melanjutkan suatu aksi.</td>
+    </tr>
+    <tr>
+      <td>Admin</td>
+      <td>Pihak yang memiliki wewenang untuk menyetujui atau memproses permintaan penghapusan akun.</td>
+    </tr>
+    <tr>
+      <td>Privacy Policy</td>
+      <td>Halaman kebijakan privasi yang menjelaskan pengelolaan data pengguna.</td>
+    </tr>
+    <tr>
+      <td>Data Subject Access Request</td>
+      <td>Tautan atau fitur untuk mengajukan permintaan terkait pengelolaan atau penghapusan data akun.</td>
+    </tr>
+    <tr>
+      <td>Form Request Hapus Akun</td>
+      <td>Formulir yang harus diisi pengguna untuk mengajukan penghapusan akun secara resmi.</td>
+    </tr>
+    <tr>
+      <td>Halaman Login</td>
+      <td>Halaman awal aplikasi Zycas yang digunakan untuk masuk ke akun pengguna.</td>
+    </tr>
+    <tr>
+      <td>Ikon Hamburger</td>
+      <td>Ikon tiga garis yang digunakan untuk membuka sidebar menu.</td>
+    </tr>
+    <tr>
+      <td>Sidebar Menu</td>
+      <td>Panel navigasi samping yang menampilkan daftar menu aplikasi.</td>
+    </tr>
+    <tr>
+      <td>Notifikasi</td>
+      <td>Pesan sistem yang menampilkan status keberhasilan atau pembatalan suatu aksi.</td>
+    </tr>
+    <tr>
+      <td>Konfirmasi Aksi</td>
+      <td>Proses persetujuan pengguna sebelum sistem menjalankan perintah tertentu.</td>
+    </tr>
+  </tbody>
+</table>
